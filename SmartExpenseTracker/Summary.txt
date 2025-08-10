@@ -1,0 +1,16 @@
+About App:
+Launch Screen: 
+	Displays Total expense and Today's expense
+	Has 3 Buttons:
+	1. Add New Expense: To add new expense for current date
+	2. View Expenses: List of Expenses based on date selected(Default: current date)
+	3. Visualize Expense: To view graphical pie chart view of expense category
+
+Add New Expense:
+	Edit text accepts data from user and inserts data to room database
+	
+View Expenses: 
+	List of expenses, Can select expenses on particular date
+
+Visualize Expenses:
+	Can visualize expenses category wise, Export the expense data to CSV file

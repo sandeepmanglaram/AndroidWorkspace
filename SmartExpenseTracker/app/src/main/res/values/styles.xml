@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">#000000</item> <!-- Text color (black) -->
+        <item name="android:layout_margin">50dp</item>
+    </style>
+
+    <!-- Optional: If you want to apply this globally to all buttons -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="buttonStyle">@style/CustomButtonStyle</item>
+        <item name="android:windowBackground">@color/activity_background</item>
+    </style>
+</resources>
